@@ -12,4 +12,14 @@ public class productController {
     public String index(HttpSession httpSession){
         return "index.jsp";
     }
+
+    @RequestMapping("products/new")
+    public String newProductPage(){
+        return "newProduct.jsp";
+    }
+
+    @RequestMapping("categories/new")
+    public String newCategoryPage(){
+        return "newCategory.jsp";
+    }
 }

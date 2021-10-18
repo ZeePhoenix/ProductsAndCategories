@@ -12,9 +12,9 @@
                 <h1>Product name</h1>
                 <h3>Categories:</h3>
                 <ul>
-                        <% for(int i=0; i< ${length}; i++) { %>
-                                <li>Product Name</li>
-                        <% } %>
+                        <c:forEach items="${products}" var="product">
+                                <li><c:out value="${product.name}" /></li>
+                        </c:forEach>
                 </ul>
         </div>
         <div id="form">
