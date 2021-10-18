@@ -9,14 +9,14 @@
 </head>
 <body>
         <h1>New Product</h1>
-        <form action="" method="">
+        <form action="" method="POST">
                 <label for="name">Name:</label>
                 <input type="text" name="name" id="name"><br>
                 <label for="name">Description:</label>
-                <input type="text" name="name" id="name"><br>
+                <input type="text" name="description" id="description"><br>
                 <label for="name">Price:</label>
-                <input type="text" name="name" id="name"><br>
-                <input type="submit">
+                <input type="number" name="price" id="price"><br>
+                <input type="submit" value="Add">
         </form>
 </body>
 </html>

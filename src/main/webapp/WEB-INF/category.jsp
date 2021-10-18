@@ -19,7 +19,7 @@
                 <h3>Add Product:</h3>
                 <form>
                         <label>Add Category</label>
-                        <input>
+                        <input type="text" name="name" id="name">
                         <input type="submit" value="Add">
                 </form>
         </div>

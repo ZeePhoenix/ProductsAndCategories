@@ -12,14 +12,16 @@
                 <h1>Product name</h1>
                 <h3>Categories:</h3>
                 <ul>
-                        <li></li>
+                        <% for(int i=0; i< ${length}; i++) { %>
+                                <li>Product Name</li>
+                        <% } %>
                 </ul>
         </div>
         <div id="form">
                 <h3>Add Category:</h3>
                 <form>
                         <label>Add Category</label>
-                        <input>
+                        <input type="text" name="name" id="name">
                         <input type="submit" value="Add">
                 </form>
         </div>

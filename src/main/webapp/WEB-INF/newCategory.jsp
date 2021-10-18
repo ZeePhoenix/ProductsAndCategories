@@ -9,7 +9,7 @@
 </head>
 <body>
         <h1>New Category</h1>
-        <form action="" method="">
+        <form action="" method="POST">
                 <label for="name">Name:</label>
                 <input type="text" name="name" id="name"><br>
                 <input type="submit">
